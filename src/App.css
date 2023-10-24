@@ -1,0 +1,319 @@
+/* src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile h1 {
+  font-size: 32px;
+  margin: 0;
+  padding-left: 20px; /* Add space to the left of the name */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  margin: 0 10px; /* Add space between buttons */
+}
+
+.navbar button.active {
+  background: #444;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+/* src/App.css */
+
+/* ... Previous CSS styles ... */
+
+.content-section {
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.content-section h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+/* src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.left-content {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  padding-left: 20px;
+}
+
+.info h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.info h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.info h3 {
+  font-size: 20px;
+  margin: 20px 0 10px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info li {
+  font-size: 16px;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  margin: 0 10px;
+}
+
+.navbar button.active {
+  background: #444;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.left-content {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  padding-left: 20px;
+}
+
+.info h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.info h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.info h2 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info li {
+  font-size: 16px;
+  margin: 0;
+}
+
+.project-links {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.project-links h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.project-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-links li {
+  font-size: 16px;
+  margin: 0;
+}
+
+.project-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-links a:hover {
+  color: #007BFF;
+}
+
+.image-box {
+  padding: 20px;
+}
+
+/* src/App.css */
+
+/* ... Your existing styles ... */
+
+/* Add styles for the project card grid and cards */
+.project-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.project-card p {
+  font-size: 16px;
+}
+
+.project-card a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.content-section {
+  margin-bottom: 20px;
+}
+
+.content-section h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.content-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
